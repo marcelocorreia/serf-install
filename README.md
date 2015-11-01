@@ -1,6 +1,6 @@
 # serf-install
 
-Installs [Hasicorp's serf](https://serfdom.io)
+Installs [Hasicorp's Serf](https://serfdom.io)
 
 
 
