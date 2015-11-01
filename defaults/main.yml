@@ -2,7 +2,6 @@
 serf:
   version: 0.6.4
   arch: amd64
-
-install:
-  dir : /usr/local/bin
-  download_location: https://dl.bintray.com/mitchellh/serf
+  package:
+  download_location: https://releases.hashicorp.com/serf
+  install_location:: /usr/local/bin
