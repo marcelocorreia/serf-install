@@ -2,8 +2,6 @@
 app:
   name: serf
   version: 0.6.4
-  arch: linux_amd64
-  file_group: vagrant
 
 install:
   dir : /usr/local/bin
