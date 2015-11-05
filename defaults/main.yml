@@ -1,7 +1,12 @@
 ---
-serf:
+app:
+  name: serf
   version: 0.6.4
-  arch: amd64
-  package:
+  arch: linux_amd64
+  file_group: vagrant
+
+install:
+  dir : /usr/local/bin
   download_location: https://releases.hashicorp.com/serf
-  install_location:: /usr/local/bin
+  file_list:
+    - serf
